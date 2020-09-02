@@ -16,7 +16,20 @@ header {
     background-size: cover;
     background-position: center;
     overflow: hidden;
+    transition: all .1s ease-in-out ;
+    animation: banner 20s infinite linear;
+    
 }
+/*.banner{
+    position: relative;
+    width: 100%;
+    height: calc( 100vh - 50px);
+    background-color: #fd1d1d;
+    background-size: cover;
+    background-position:center ;
+    transition: all .1s ease-in-out;
+    background-image: url(../UrbanLatino/img/ing/dj_equipment_installation_115575_3840x2160.jpg);
+}*/
 
 header nav {
     height: 70px;
@@ -77,8 +90,49 @@ header .textos h1 {
 }
 
 header .textos h2 {
+    padding-bottom: 30px ;
     font-size: 30px;
     font-weight: 600;
+}
+
+header .textos a {
+    text-decoration: none;
+    color:  #fff;
+    padding: 9px 20px;
+    border: 1px solid  #ffffff;
+    text-transform: uppercase;
+    transition: all .3s ease-in-out;
+}
+header .textos a:hover{
+    background-color: rgb(1, 253, 1);
+    color: #fff;
+
+}
+@keyframes banner{
+    0%{
+        background-image: url("hero.jpg");
+    }
+    25%{
+        background-image: url("hero.jpg");
+    }
+    26%{
+        background-image: url("imagen.jpg");
+    }
+    50%{
+        background-image: url("imagen.jpg");
+    }
+    51%{
+        background-image: url("imagen2.jpg");
+    }
+    75%{
+        background-image: url("imagen2.jpg");
+    }
+    76%{
+        background-image: url("imagen3.jpg");
+    }
+    100%{
+        background-image: url("imagen3.jpg");
+    }
 }
 
 @media screen and (max-width:750px) {
@@ -107,13 +161,10 @@ header .textos h2 {
         flex-direction: column;
         transition: all 1s ease;
         background: #f46b45;
-        /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #eea849, #f46b45);
-        /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #eea849, #f46b45);
-        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-    }
+        background: #833ab4;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }        
 
     .uno {
 
