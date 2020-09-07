@@ -1,0 +1,128 @@
+/* barra de menu*/
+.contenedor{
+   background: black;
+   width: 100%;  /*ancho*/
+   height: 80px; /*alto*/
+}
+
+.logo{
+   background:black;
+  /* display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;*/
+   line-height: 60px;
+   width: 30%;/*ancho*/
+   height: 100%;/*alto*/
+   margin: auto;/*centrar cajas*/
+
+   
+}
+.logotipo{
+   background: black;
+   text-align: center;
+   height: 80px;
+}
+.contenedor span{
+   font-size: 40pt;
+   font-weight: bold;
+   position: relative;
+   font-family:"Fredoka One";
+   cursor: pointer;
+   transition: all 300ms ease-in-out;
+}
+
+.contenedor span::before{
+   content: var(--l);
+   position: absolute;
+   transform: scale(1.1);
+   filter: blur(15px);
+}
+.contenedor span ::after{
+   content: var(--l);
+   position: absolute;
+   top: 80%;
+   left: 0;
+   filter: blur(30px);
+   transform: rotateX(50deg);
+}
+.contenedor span:hover{
+   filter: contrast(250%);
+}
+
+.contenedor span:nth-child(1){
+   color:  #bb00ff;
+}
+.contenedor span:nth-child(2){
+   color: #00bef8 ;
+}
+.contenedor span:nth-child(3){
+   color: #ff06ff;
+}
+.contenedor span:nth-child(4){
+   color: #ff4d00;
+}
+.contenedor span:nth-child(5){
+   color: #ffe600;
+}
+.contenedor span:nth-child(6){
+   color: #bb00ff ;
+
+}
+.contenedor span:nth-child(7){
+   color:  #ffe600 ;
+}
+.contenedor span:nth-child(8){
+   color:  #ff4d00;
+}
+.contenedor span:nth-child(9){
+   color:#ff06ff ;
+}
+.contenedor span:nth-child(10){
+   color: #00bef8 ;
+}
+.contenedor span:nth-child(11){
+   color: #ff4d00 ;
+}
+/*.UrbanLatino{
+  
+    
+   text-decoration: none;
+   color: #2196f3;
+   /* estilode  letra y tamaño
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 3rem;
+
+   position: relative;
+   display: inline;
+   padding: 15px 30;
+  
+   
+   
+   overflow: hidden;
+   transition: 0.2s;
+   
+
+}
+.UrbanLatino:hover{
+   color: #255784;
+   background: #2196f3;
+   box-shadow: 0 0 10px #2196f3 0 0 40px #2196f3, 0 0 60px #2196f3; 
+}
+
+.UrbanLatino > span{
+   position: absolute;
+   display: block;
+
+}
+.UrbanLatino > span:nth-child(1){
+
+}
+
+H1{
+   text-align: center;
+
+
+}
+*/

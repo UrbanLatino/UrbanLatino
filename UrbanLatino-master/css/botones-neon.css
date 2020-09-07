@@ -1,0 +1,32 @@
+.menu-wrap .menu >div >div >ul >li >a{
+       /*  neon   1 */
+    padding: 25px 30;
+    margin: 40px 0;
+    color: #00ff0d;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+   /* overflow: hidden;
+   */ transition: 0,7;
+    letter-spacing: 4px;
+  /*  -webkit-box-reflect: below 1px linear-gradient(transparent,#000500);
+*/}
+
+
+.menu-wrap .menu >div >div >ul >li >a:hover {
+    background: #00ff0d;
+    color: #050801;
+    box-shadow: 0 0 5px #00ff0d,
+                0 0 25px #00ff0d,
+                0 0 50px #00ff0d,
+                0 0 200px #00ff0d;
+   
+}
+.menu-wrap .menu >div >div >ul >li >a >span {
+    position: absolute;
+    display: block;
+}
+
+
+  
+
